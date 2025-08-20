@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "stop": "taskkill /F /IM node.exe",
     "test": "jest"
   },
   "keywords": [],
