@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "stop": "taskkill /F /IM node.exe",
+    "stop": "pkill --signal SIGINT myApp",
     "test": "jest"
   },
   "keywords": [],
